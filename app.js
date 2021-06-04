@@ -10,3 +10,8 @@ add.addEventListener("click", function() {
     counter ++;
     counterNum.innerText = counter;
 })
+
+subtract.addEventListener("click", function() {
+    counter --;
+    counterNum.innerText = counter;
+})

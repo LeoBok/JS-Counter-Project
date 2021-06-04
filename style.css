@@ -61,3 +61,10 @@ body {
     height: 105px;
     transition: ease-in 0.5s;
 }
+
+.operators-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

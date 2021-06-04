@@ -5,3 +5,8 @@ let resetBtn = document.getElementById("reset-btn");
 let magicBtn = document.getElementById("magicButton-btn");
 
 let counter = 0;
+
+add.addEventListener("click", function() {
+    counter ++;
+    counterNum.innerText = counter;
+})

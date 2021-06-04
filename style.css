@@ -38,3 +38,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.center {
+    background-color: #e4e4e4;
+    box-shadow: 3px 0px 7px 3px #a7a7a7;
+    border-radius: 50%;
+    border: none;
+    height: 100px;
+    width: 100px;
+    font-size: 15px;
+}

@@ -53,3 +53,11 @@ body {
 .add {
     font-size: 25px;
 }
+
+.center:hover {
+    background-color: #d8d8d8;
+    cursor: pointer;
+    width: 105px;
+    height: 105px;
+    transition: ease-in 0.5s;
+}

@@ -48,3 +48,8 @@ body {
     width: 100px;
     font-size: 15px;
 }
+
+.subtract,
+.add {
+    font-size: 25px;
+}

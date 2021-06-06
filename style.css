@@ -1,3 +1,8 @@
+:root {
+    --positive-number: #49ce44;
+    --negative-number: #e93636;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -67,4 +72,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.positive-number {
+    color: var(--positive-number);
+}
+
+.negative-number {
+    color: var(--negative-number);
 }

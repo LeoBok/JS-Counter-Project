@@ -43,3 +43,4 @@ magicBtn.addEventListener("click", function() {
    counter = askMessage;
    counterNum.innerText = counter;
 });
+

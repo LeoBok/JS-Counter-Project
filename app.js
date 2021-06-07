@@ -42,5 +42,6 @@ magicBtn.addEventListener("click", function() {
    let askMessage = parseInt( prompt("Choose a number you want to start count from:") );
    counter = askMessage;
    counterNum.innerText = counter;
+   changeColor();
 });
 

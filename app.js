@@ -19,23 +19,26 @@ addBtn.className = 'center add';
 // finally append addBtn to operatorsDiv
 operatorsDiv.appendChild(addBtn);
 
+// link the counterNum variable to the num-showed ID of the div
 let counterNum = document.getElementById("num-showed");
+// display number 0
 counterNum.innerText = 0;
 
-// let add = document.getElementById("add-btn");
-// let subtract = document.getElementById("subtract-btn");
-let resetBtn = document.getElementById("reset-btn");
-let magicBtn = document.getElementById("magicButton-btn");
 
+// create a reset button
+let resetBtn = document.getElementById("reset-btn");
+// create a 'magic' button
+let magicBtn = document.getElementById("magicButton-btn");
+// set the counter to number 0
 let counter = 0;
 
-/*
-add.addEventListener("click", function() {
+
+addBtn.addEventListener("click", function() {
     counter ++;
     counterNum.innerText = counter;
     changeColor();
 });
-*/
+
 /*
 subtract.addEventListener("click", function() {
     counter --;

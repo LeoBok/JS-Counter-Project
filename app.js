@@ -1,4 +1,4 @@
-
+let operatorsDiv = document.getElementById('add-and-subtract');
 
 
 let counterNum = document.getElementById("num-showed");

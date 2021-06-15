@@ -1,6 +1,7 @@
 // get 'add-and-subtract' ID div for append the subtractBtn and addBtn 
 let operatorsDiv = document.getElementById('add-and-subtract');
 
+
 // create a subtract button
 let subtractBtn = document.createElement('button');
 // give it innerText property for display minus symbol
@@ -10,6 +11,7 @@ subtractBtn.className = 'center subtract';
 // finally append subtractBtn to operatorsDiv
 operatorsDiv.appendChild(subtractBtn);
 
+
 // create an sum button
 let addBtn = document.createElement('button');
 // give it innerText property for display plus symbol
@@ -18,6 +20,7 @@ addBtn.innerText = '+';
 addBtn.className = 'center add';
 // finally append addBtn to operatorsDiv
 operatorsDiv.appendChild(addBtn);
+
 
 // link the counterNum variable to the num-showed ID of the div
 let counterNum = document.getElementById("num-showed");
@@ -39,21 +42,21 @@ addBtn.addEventListener("click", function() {
     changeColor();
 });
 
-/*
-subtract.addEventListener("click", function() {
+
+subtractBtn.addEventListener("click", function() {
     counter --;
     counterNum.innerText = counter;
     changeColor();
 });
-*/
-/*
+
+
 resetBtn.addEventListener("click", function() {
     counter = 0;
-    // counterNum.innerText = counter;
+    counterNum.innerText = counter;
     changeColor();
 });
-*/
-/*
+
+
 function changeColor() {
     if ( counter < 0 ) {
         counterNum.classList.add("negative-number");
@@ -66,12 +69,12 @@ function changeColor() {
         counterNum.classList.remove("negative-number");
     }
 }
-*/
-/*
+
+
 magicBtn.addEventListener("click", function() {
    let askMessage = parseInt( prompt("Choose a number you want to start count from:") );
    counter = askMessage;
-   // counterNum.innerText = counter;
+   counterNum.innerText = counter;
    changeColor();
 });
-*/
+

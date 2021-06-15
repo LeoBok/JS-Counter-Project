@@ -1,5 +1,8 @@
 let operatorsDiv = document.getElementById('add-and-subtract');
-
+let subtractBtn = document.createElement('button');
+subtractBtn.innerText = '-';
+subtractBtn.className = 'center subtract';
+operatorsDiv.appendChild(subtractBtn);
 
 let counterNum = document.getElementById("num-showed");
 counterNum.innerText = 0;

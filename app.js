@@ -1,8 +1,23 @@
+// get 'add-and-subtract' ID div for append the subtractBtn and addBtn 
 let operatorsDiv = document.getElementById('add-and-subtract');
+
+// create a subtract button
 let subtractBtn = document.createElement('button');
+// give it innerText property for display minus symbol
 subtractBtn.innerText = '-';
+// add the classes of center and subctract in the Css file
 subtractBtn.className = 'center subtract';
+// finally append subtractBtn to operatorsDiv
 operatorsDiv.appendChild(subtractBtn);
+
+// create an sum button
+let addBtn = document.createElement('button');
+// give it innerText property for display plus symbol
+addBtn.innerText = '+';
+// add the classes of center and add in the Css file
+addBtn.className = 'center add';
+// finally append addBtn to operatorsDiv
+operatorsDiv.appendChild(addBtn);
 
 let counterNum = document.getElementById("num-showed");
 counterNum.innerText = 0;
